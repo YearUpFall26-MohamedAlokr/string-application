@@ -13,7 +13,11 @@ public class VariableApp {
         char middleName='S';
         boolean hasPets = true;
         String message = "Hello World!";
-
+        System.out.println("My favorite color is " + favoriteColor );
+        System.out.println("I started this class in " + classStartYear);
+        System.out.println("My middle initial is " + middleInitial );
+        System.out.println("I have pets: " + hasPets );
+        System.out.println("Message: " + message);
 
 //        Step 2
 //        Declare AND initialize variables for:
@@ -22,6 +26,17 @@ public class VariableApp {
 //        3. Your favorite letter
 //        4. Whether it's raining (true/false)
 //        5. Print all values in complete sentences
+
+        int daysInWeek = 7;
+        double coffeePrice = 4.99;
+        char favoriteLetter = 'M';
+        boolean isRaining = false;
+
+        System.out.println("There are " + daysInWeek + " days in a week");
+        System.out.println("A coffee costs " + coffeePrice + "$");
+        System.out.println("My favorite letter is " + favoriteLetter);
+        System.out.println("Is it raining? " + isRaining);
+
 //        Step 3
 //        Create a new file in com.pluralsight named Receipt.java structured as
 //        follows:
