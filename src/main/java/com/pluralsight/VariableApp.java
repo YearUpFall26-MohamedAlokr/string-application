@@ -13,9 +13,9 @@ public class VariableApp {
         char middleName='S';
         boolean hasPets = true;
         String message = "Hello World!";
-        System.out.println("My favorite color is " + favoriteColor );
-        System.out.println("I started this class in " + classStartYear);
-        System.out.println("My middle initial is " + middleInitial );
+        System.out.println("My favorite color is " + color );
+        System.out.println("I started this class in " + year);
+        System.out.println("My middle initial is " + middleName );
         System.out.println("I have pets: " + hasPets );
         System.out.println("Message: " + message);
 
@@ -37,16 +37,6 @@ public class VariableApp {
         System.out.println("My favorite letter is " + favoriteLetter);
         System.out.println("Is it raining? " + isRaining);
 
-//        Step 3
-//        Create a new file in com.pluralsight named Receipt.java structured as
-//        follows:
-//        public class Receipt {
-//            public static void main(String[] args) {
-//                System.out.println();
-//            }
-//        }
-//        1. Create variables for an item name (String) and item price (double)
-//        2. Create a quantity variable (int)
-//                3. Build and print: EX. "You bought 3 apples for $7.10"
+
     }
 }
